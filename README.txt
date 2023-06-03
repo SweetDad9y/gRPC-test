@@ -5,4 +5,4 @@ protoc --go_out=. --go-grpc_out=require_unimplemented_servers=false:. example.pr
 evans <protofile path> -p <port>
 
 //Генерация прото и grpc файла
-protoc --go_out=. example.proto --go-grpc-out=. example.proto
+protoc --go_out=. example.proto --go-grpc_out=. example.proto
